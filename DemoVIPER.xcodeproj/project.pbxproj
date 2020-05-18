@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B2B3AE224641D5900C8E0B3 /* MovieDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2B3AE124641D5900C8E0B3 /* MovieDataSource.swift */; };
+		9BC63A012459AB16009EC77D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC63A002459AB16009EC77D /* AppDelegate.swift */; };
+		9BC63A032459AB16009EC77D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC63A022459AB16009EC77D /* SceneDelegate.swift */; };
+		9BC63A082459AB16009EC77D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC63A062459AB16009EC77D /* Main.storyboard */; };
+		9BC63A0B2459AB16009EC77D /* DemoVIPER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BC63A092459AB16009EC77D /* DemoVIPER.xcdatamodeld */; };
+		9BC63A0D2459AB18009EC77D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC63A0C2459AB18009EC77D /* Assets.xcassets */; };
+		9BC63A102459AB18009EC77D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC63A0E2459AB18009EC77D /* LaunchScreen.storyboard */; };
+		9BC63A1B2459AB19009EC77D /* DemoVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC63A1A2459AB19009EC77D /* DemoVIPERTests.swift */; };
+		9BC63A262459AB19009EC77D /* DemoVIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC63A252459AB19009EC77D /* DemoVIPERUITests.swift */; };
+		9BCD2FB3245EEF9600323C7D /* MoviePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD2FAD245EEF9600323C7D /* MoviePresenter.swift */; };
+		9BCD2FB4245EEF9600323C7D /* MovieWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD2FAE245EEF9600323C7D /* MovieWorker.swift */; };
+		9BCD2FB5245EEF9600323C7D /* MovieRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD2FAF245EEF9600323C7D /* MovieRouter.swift */; };
+		9BCD2FB6245EEF9600323C7D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD2FB0245EEF9600323C7D /* Movie.swift */; };
+		9BCD2FB8245EEF9600323C7D /* MovieInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD2FB2245EEF9600323C7D /* MovieInteractor.swift */; };
+		9BCD2FBA245F05BF00323C7D /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD2FB9245F05BF00323C7D /* MovieViewController.swift */; };
+		9BCD2FBC245F06DE00323C7D /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD2FBB245F06DD00323C7D /* MovieTableViewCell.swift */; };
+		9BCD300224605A1E00323C7D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCD300124605A1E00323C7D /* Common.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BC63A172459AB19009EC77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BC639F52459AB16009EC77D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BC639FC2459AB16009EC77D;
+			remoteInfo = DemoVIPER;
+		};
+		9BC63A222459AB19009EC77D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BC639F52459AB16009EC77D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BC639FC2459AB16009EC77D;
+			remoteInfo = DemoVIPER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B2B3AE124641D5900C8E0B3 /* MovieDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataSource.swift; sourceTree = "<group>"; };
+		9BC639FD2459AB16009EC77D /* DemoVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC63A002459AB16009EC77D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BC63A022459AB16009EC77D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9BC63A072459AB16009EC77D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BC63A0A2459AB16009EC77D /* DemoVIPER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoVIPER.xcdatamodel; sourceTree = "<group>"; };
+		9BC63A0C2459AB18009EC77D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BC63A0F2459AB18009EC77D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BC63A112459AB18009EC77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC63A162459AB19009EC77D /* DemoVIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoVIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC63A1A2459AB19009EC77D /* DemoVIPERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVIPERTests.swift; sourceTree = "<group>"; };
+		9BC63A1C2459AB19009EC77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC63A212459AB19009EC77D /* DemoVIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoVIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC63A252459AB19009EC77D /* DemoVIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVIPERUITests.swift; sourceTree = "<group>"; };
+		9BC63A272459AB19009EC77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCD2FAD245EEF9600323C7D /* MoviePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePresenter.swift; sourceTree = "<group>"; };
+		9BCD2FAE245EEF9600323C7D /* MovieWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieWorker.swift; sourceTree = "<group>"; };
+		9BCD2FAF245EEF9600323C7D /* MovieRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRouter.swift; sourceTree = "<group>"; };
+		9BCD2FB0245EEF9600323C7D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9BCD2FB2245EEF9600323C7D /* MovieInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInteractor.swift; sourceTree = "<group>"; };
+		9BCD2FB9245F05BF00323C7D /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		9BCD2FBB245F06DD00323C7D /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		9BCD300124605A1E00323C7D /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BC639FA2459AB16009EC77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC63A132459AB19009EC77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC63A1E2459AB19009EC77D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B41E334245AE84F00DA7D89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BCD2FB0245EEF9600323C7D /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B41E335245AE85B00DA7D89 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9BCD2FB9245F05BF00323C7D /* MovieViewController.swift */,
+				9B2B3AE124641D5900C8E0B3 /* MovieDataSource.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9B41E336245AE87300DA7D89 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				9BCD2FAF245EEF9600323C7D /* MovieRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		9B41E337245AE88200DA7D89 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9BCD2FB2245EEF9600323C7D /* MovieInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9B41E338245AE8B300DA7D89 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9BCD2FAD245EEF9600323C7D /* MoviePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9BC639F42459AB16009EC77D = {
+			isa = PBXGroup;
+			children = (
+				9BC639FF2459AB16009EC77D /* DemoVIPER */,
+				9BC63A192459AB19009EC77D /* DemoVIPERTests */,
+				9BC63A242459AB19009EC77D /* DemoVIPERUITests */,
+				9BC639FE2459AB16009EC77D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BC639FE2459AB16009EC77D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BC639FD2459AB16009EC77D /* DemoVIPER.app */,
+				9BC63A162459AB19009EC77D /* DemoVIPERTests.xctest */,
+				9BC63A212459AB19009EC77D /* DemoVIPERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BC639FF2459AB16009EC77D /* DemoVIPER */ = {
+			isa = PBXGroup;
+			children = (
+				9B41E338245AE8B300DA7D89 /* Presenter */,
+				9B41E337245AE88200DA7D89 /* Interactor */,
+				9B41E336245AE87300DA7D89 /* Router */,
+				9B41E335245AE85B00DA7D89 /* ViewController */,
+				9B41E334245AE84F00DA7D89 /* Model */,
+				9BC63A002459AB16009EC77D /* AppDelegate.swift */,
+				9BC63A022459AB16009EC77D /* SceneDelegate.swift */,
+				9BC63A062459AB16009EC77D /* Main.storyboard */,
+				9BCD2FBB245F06DD00323C7D /* MovieTableViewCell.swift */,
+				9BC63A0C2459AB18009EC77D /* Assets.xcassets */,
+				9BC63A0E2459AB18009EC77D /* LaunchScreen.storyboard */,
+				9BC63A112459AB18009EC77D /* Info.plist */,
+				9BC63A092459AB16009EC77D /* DemoVIPER.xcdatamodeld */,
+				9BCD2FAE245EEF9600323C7D /* MovieWorker.swift */,
+				9BCD300124605A1E00323C7D /* Common.swift */,
+			);
+			path = DemoVIPER;
+			sourceTree = "<group>";
+		};
+		9BC63A192459AB19009EC77D /* DemoVIPERTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BC63A1A2459AB19009EC77D /* DemoVIPERTests.swift */,
+				9BC63A1C2459AB19009EC77D /* Info.plist */,
+			);
+			path = DemoVIPERTests;
+			sourceTree = "<group>";
+		};
+		9BC63A242459AB19009EC77D /* DemoVIPERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BC63A252459AB19009EC77D /* DemoVIPERUITests.swift */,
+				9BC63A272459AB19009EC77D /* Info.plist */,
+			);
+			path = DemoVIPERUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BC639FC2459AB16009EC77D /* DemoVIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC63A2A2459AB19009EC77D /* Build configuration list for PBXNativeTarget "DemoVIPER" */;
+			buildPhases = (
+				9BC639F92459AB16009EC77D /* Sources */,
+				9BC639FA2459AB16009EC77D /* Frameworks */,
+				9BC639FB2459AB16009EC77D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoVIPER;
+			productName = DemoVIPER;
+			productReference = 9BC639FD2459AB16009EC77D /* DemoVIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BC63A152459AB19009EC77D /* DemoVIPERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC63A2D2459AB19009EC77D /* Build configuration list for PBXNativeTarget "DemoVIPERTests" */;
+			buildPhases = (
+				9BC63A122459AB19009EC77D /* Sources */,
+				9BC63A132459AB19009EC77D /* Frameworks */,
+				9BC63A142459AB19009EC77D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BC63A182459AB19009EC77D /* PBXTargetDependency */,
+			);
+			name = DemoVIPERTests;
+			productName = DemoVIPERTests;
+			productReference = 9BC63A162459AB19009EC77D /* DemoVIPERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BC63A202459AB19009EC77D /* DemoVIPERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC63A302459AB19009EC77D /* Build configuration list for PBXNativeTarget "DemoVIPERUITests" */;
+			buildPhases = (
+				9BC63A1D2459AB19009EC77D /* Sources */,
+				9BC63A1E2459AB19009EC77D /* Frameworks */,
+				9BC63A1F2459AB19009EC77D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BC63A232459AB19009EC77D /* PBXTargetDependency */,
+			);
+			name = DemoVIPERUITests;
+			productName = DemoVIPERUITests;
+			productReference = 9BC63A212459AB19009EC77D /* DemoVIPERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BC639F52459AB16009EC77D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Mayur Kamthe";
+				TargetAttributes = {
+					9BC639FC2459AB16009EC77D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9BC63A152459AB19009EC77D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9BC639FC2459AB16009EC77D;
+					};
+					9BC63A202459AB19009EC77D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9BC639FC2459AB16009EC77D;
+					};
+				};
+			};
+			buildConfigurationList = 9BC639F82459AB16009EC77D /* Build configuration list for PBXProject "DemoVIPER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BC639F42459AB16009EC77D;
+			productRefGroup = 9BC639FE2459AB16009EC77D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BC639FC2459AB16009EC77D /* DemoVIPER */,
+				9BC63A152459AB19009EC77D /* DemoVIPERTests */,
+				9BC63A202459AB19009EC77D /* DemoVIPERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BC639FB2459AB16009EC77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC63A102459AB18009EC77D /* LaunchScreen.storyboard in Resources */,
+				9BC63A0D2459AB18009EC77D /* Assets.xcassets in Resources */,
+				9BC63A082459AB16009EC77D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC63A142459AB19009EC77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC63A1F2459AB19009EC77D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BC639F92459AB16009EC77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCD2FBC245F06DE00323C7D /* MovieTableViewCell.swift in Sources */,
+				9BCD2FB4245EEF9600323C7D /* MovieWorker.swift in Sources */,
+				9BCD2FBA245F05BF00323C7D /* MovieViewController.swift in Sources */,
+				9BC63A0B2459AB16009EC77D /* DemoVIPER.xcdatamodeld in Sources */,
+				9BCD300224605A1E00323C7D /* Common.swift in Sources */,
+				9BCD2FB5245EEF9600323C7D /* MovieRouter.swift in Sources */,
+				9BCD2FB3245EEF9600323C7D /* MoviePresenter.swift in Sources */,
+				9B2B3AE224641D5900C8E0B3 /* MovieDataSource.swift in Sources */,
+				9BCD2FB6245EEF9600323C7D /* Movie.swift in Sources */,
+				9BCD2FB8245EEF9600323C7D /* MovieInteractor.swift in Sources */,
+				9BC63A012459AB16009EC77D /* AppDelegate.swift in Sources */,
+				9BC63A032459AB16009EC77D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC63A122459AB19009EC77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC63A1B2459AB19009EC77D /* DemoVIPERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC63A1D2459AB19009EC77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC63A262459AB19009EC77D /* DemoVIPERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BC63A182459AB19009EC77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BC639FC2459AB16009EC77D /* DemoVIPER */;
+			targetProxy = 9BC63A172459AB19009EC77D /* PBXContainerItemProxy */;
+		};
+		9BC63A232459AB19009EC77D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BC639FC2459AB16009EC77D /* DemoVIPER */;
+			targetProxy = 9BC63A222459AB19009EC77D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BC63A062459AB16009EC77D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BC63A072459AB16009EC77D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BC63A0E2459AB18009EC77D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BC63A0F2459AB18009EC77D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BC63A282459AB19009EC77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BC63A292459AB19009EC77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BC63A2B2459AB19009EC77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X3QRKYN45;
+				INFOPLIST_FILE = DemoVIPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemoVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BC63A2C2459AB19009EC77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X3QRKYN45;
+				INFOPLIST_FILE = DemoVIPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemoVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BC63A2E2459AB19009EC77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X3QRKYN45;
+				INFOPLIST_FILE = DemoVIPERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemoVIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoVIPER.app/DemoVIPER";
+			};
+			name = Debug;
+		};
+		9BC63A2F2459AB19009EC77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X3QRKYN45;
+				INFOPLIST_FILE = DemoVIPERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemoVIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoVIPER.app/DemoVIPER";
+			};
+			name = Release;
+		};
+		9BC63A312459AB19009EC77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X3QRKYN45;
+				INFOPLIST_FILE = DemoVIPERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemoVIPERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoVIPER;
+			};
+			name = Debug;
+		};
+		9BC63A322459AB19009EC77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X3QRKYN45;
+				INFOPLIST_FILE = DemoVIPERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DemoVIPERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoVIPER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BC639F82459AB16009EC77D /* Build configuration list for PBXProject "DemoVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC63A282459AB19009EC77D /* Debug */,
+				9BC63A292459AB19009EC77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC63A2A2459AB19009EC77D /* Build configuration list for PBXNativeTarget "DemoVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC63A2B2459AB19009EC77D /* Debug */,
+				9BC63A2C2459AB19009EC77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC63A2D2459AB19009EC77D /* Build configuration list for PBXNativeTarget "DemoVIPERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC63A2E2459AB19009EC77D /* Debug */,
+				9BC63A2F2459AB19009EC77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC63A302459AB19009EC77D /* Build configuration list for PBXNativeTarget "DemoVIPERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC63A312459AB19009EC77D /* Debug */,
+				9BC63A322459AB19009EC77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BC63A092459AB16009EC77D /* DemoVIPER.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BC63A0A2459AB16009EC77D /* DemoVIPER.xcdatamodel */,
+			);
+			currentVersion = 9BC63A0A2459AB16009EC77D /* DemoVIPER.xcdatamodel */;
+			path = DemoVIPER.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9BC639F52459AB16009EC77D /* Project object */;
+}
